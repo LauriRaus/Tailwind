@@ -98,11 +98,11 @@
             <div class="flex flex-col mb-1 space-y-6 md:w-4/6">
                 <h1 class="max-w-lg text-7xl font-bold text-center md:text-7xl md:text-left ">Kiire ja soodne viis
                     liikumiseks.</h1>
-                <button class="rounded-full bg-cyan-50 text-black font-bold p-3 w-48">Laadi alla rakendus</button>
-                <div class="text-lg">Telli Bolt veebist ilma rakendust kasutamata</div>
-                <div class="text-lg font-semibold">TELLI AUTO VEEBIST -></div>
+                <button class="rounded-full bg-cyan-50 text-black font-bold p-3 w-48 sm:mx-auto md:mx-0">Laadi alla
+                    rakendus</button>
+                <div class="text-lg sm:mx-auto md:mx-0">Telli Bolt veebist ilma rakendust kasutamata</div>
+                <div class="text-lg font-semibold sm:mx-auto md:mx-0">TELLI AUTO VEEBIST -></div>
             </div>
-
             <!-- Right item -->
             <div class="">
                 <img src="img/content1.png" class="" alt="">
@@ -113,7 +113,7 @@
     <!-- mainContent2 -->
     <section id="features" class="bg-boltBlue">
         <!-- Flex container -->
-        <div class="container flex flex-col px-36 mx-auto py-20 md:flex-row">
+        <div class="container flex flex-col space-y-4 px-36 mx-auto py-20 md:flex-row">
             <!-- Left -->
             <div class="flex flex-col space-y-2 md:w-1/2 text-white">
                 <h2 class="max-w-md text-3xl font-bold text-left md-text-left">
@@ -146,13 +146,13 @@
                     <p class="text-sm">Lähim auto on minutite kaugusel.</p>
                 </div>
                 <!-- content 2 -->
-                <div class="hidden  flex-col items-center p-6 space-y-4  md:w-1/3 md:flex">
+                <div class="flex flex-col items-center p-6 space-y-4  md:w-1/3 md:flex">
                     <img src="img/wallet.svg" class="h-20" alt="">
                     <h5 class="text-4xl font-bold">Parimad hinnad</h5>
                     <p class="text-sm ">Pakume igas linnas parimaid hindu. Vaata ise järele!</p>
                 </div>
                 <!-- content 3 -->
-                <div class="hidden flex-col items-center p-6 space-y-4  md:flex md:w-1/3">
+                <div class="flex flex-col items-center p-6 space-y-4  md:flex md:w-1/3">
                     <img src="img/mobile.svg" class="h-20" alt="">
                     <h5 class="text-4xl font-bold">Lihtne kasutada</h5>
                     <p class="text-sm">Jõua sihtkohta nii kiiresti kui võimalik.</p>
@@ -199,7 +199,7 @@
                     <p class="text-sm ">Loe ohutuse kohta lähemalt ↗.</p>
                 </div>
                 <!-- content 2 -->
-                <div class="hidden  flex-col  p-6 space-y-4  md:w-1/3 md:flex">
+                <div class="flex  flex-col  p-6 space-y-4  md:w-1/3 md:flex">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M12 6C13 4 15.0911 2.99681 17.0011 3.00001C18.2152 3.00204 19.4382 3.3549 20.5003 4.09977C23.6816 6.33098 24.4553 10.7237 22.2283 13.9111C19.8282 17.3465 16.5092 20.0017 13.2483 22.5731C12.8822 22.8617 12.4397 23.0039 12 22.9999C11.5602 23.0039 11.1177 22.8617 10.7517 22.573C7.49084 20.0017 4.17179 17.3465 1.77165 13.9111C-0.455286 10.7237 0.318409 6.33098 3.49975 4.09977C4.56214 3.35467 5.78561 3.00183 7 3.00001C8.90967 2.99715 11 4 12 6Z"
@@ -209,7 +209,7 @@
                     <p class="text-sm ">Bolti juhid teenivad tänu suurele kliendibaasile rohkem.</p>
                 </div>
                 <!-- content 3 -->
-                <div class="hidden flex-col  p-6 space-y-4  md:flex md:w-1/3">
+                <div class="flex flex-col  p-6 space-y-4  md:flex md:w-1/3">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M10.5012 19.0883C8.73665 18.9712 6.97589 18.6474 5.22003 18.1202C3.35799 17.6513 2 15.9758 2 14.043C2 12.6987 2.63515 11.5026 3.61672 10.7392C2.58003 9.11122 2.82501 6.91046 4.19114 5.54345C5.15319 4.58078 6.56112 4.14338 7.89715 4.38592C8.26931 2.44759 9.96977 1 12 1C14.0306 1 15.7308 2.44823 16.1037 4.3867C17.4377 4.13935 18.8491 4.58307 19.8089 5.54345C21.1763 6.91177 21.4185 9.1113 20.3832 10.7409C21.3657 11.5033 22 12.6996 22 14.043C22 15.9608 20.7097 17.5855 18.9333 18.0751C17.1602 18.6218 15.3297 18.9666 13.499 19.0882L13.499 21.5017C13.499 22.3301 12.8279 23.0016 12 23.0016C11.1721 23.0016 10.501 22.33 10.5011 21.5016L10.5012 19.0883Z"
@@ -248,13 +248,28 @@
             class="container flex flex-col items-center justify-between py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
 
             <!-- List container -->
-            <div class="flex space-x-32 mx-auto">
+            <div class="flex flex-col md:flex-row space-x-32 mx-auto">
                 <div class="flex flex-col space-y-3">
-                    <a href="#">Bolt</a>
-                    <a href="#">Eesti keel</a>
-                    <a href="#">Eesti</a>
+                    <div class="pr-6">
+                        <img src="img/bolt.svg" alt="">
+                    </div>
+                    <div class="flex  p-3 px-3 pt-2 font-bold text-md text-center bg-gray-100 rounded-full baseline">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmls="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12ZM11.0511 3.49465C11.4347 3.11289 11.7544 3 12 3C12.2456 3 12.5653 3.11289 12.9489 3.49465C13.3365 3.88046 13.7316 4.48883 14.0849 5.32007C14.7001 6.76773 15.1289 8.75039 15.2281 11H8.7719C8.87106 8.75039 9.29987 6.76773 9.91513 5.32007C10.2684 4.48883 10.6635 3.88046 11.0511 3.49465ZM6.77014 11C6.87027 8.526 7.33921 6.26781 8.07447 4.53779C8.19472 4.25484 8.32375 3.98211 8.46165 3.72222C5.54238 4.97169 3.41748 7.72027 3.05493 11H6.77014ZM3.05493 13H6.77014C6.87027 15.474 7.33921 17.7322 8.07447 19.4622C8.19472 19.7452 8.32375 20.0179 8.46165 20.2778C5.54238 19.0283 3.41748 16.2797 3.05493 13ZM8.7719 13H15.2281C15.1289 15.2496 14.7001 17.2323 14.0849 18.6799C13.7316 19.5112 13.3365 20.1195 12.9489 20.5053C12.5653 20.8871 12.2456 21 12 21C11.7544 21 11.4347 20.8871 11.0511 20.5053C10.6635 20.1195 10.2684 19.5112 9.91513 18.6799C9.29987 17.2323 8.87106 15.2496 8.7719 13ZM17.2299 13C17.1297 15.474 16.6608 17.7322 15.9255 19.4622C15.8053 19.7452 15.6762 20.0179 15.5384 20.2778C18.4576 19.0283 20.5825 16.2797 20.9451 13H17.2299ZM20.9451 11C20.5825 7.72027 18.4576 4.97169 15.5384 3.72222C15.6762 3.98211 15.8053 4.25484 15.9255 4.53779C16.6608 6.26781 17.1297 8.526 17.2299 11H20.9451Z"
+                                fill="currentColor"></path>
+                        </svg>
+                        <select class=" font-bold" aria-label="Language Switcher">
+                            <option value="et-ee" selected>Eesti keel</option>
+                            <option value="en-ee">English</option>
+                            <option value="ru-ee">Russian</option>
+                        </select>
+                    </div>
+                    <div class="flex p-3 px-4 pt-2 font-bold text-md text-center bg-gray-100 rounded-full baseline">
+                        <a href="#">Eesti</a>
+                    </div>
                 </div>
-                <div class="flex flex-col space-y-3">
+                <div class="flex flex-col space-y-3 sm:">
                     <div class="text-lg font-bold">Bolt</div>
                     <a href="#">Sõidud</a>
                     <a href="#">Toidu kohalevedu</a>
@@ -293,7 +308,7 @@
                 class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
 
                 <!-- Social links -->
-                <div class="flex justify-center space-x-4">
+                <div class="flex flex-row justify-center space-x-4">
                     <!-- Link1 -->
                     <a href="#">
                         <img src="img/icons8-facebook.svg" class="h-8" alt="">
@@ -333,15 +348,15 @@
 
     <!-- Footer2 -->
     <footer class="">
-        <div class="hidden md:flex text-gray-400 font-semibold">
+        <div class="md:flex text-gray-400 font-semibold ">
             <nav class="relative container max-w-6xl mx-auto py-3">
                 <hr class="h-px my-6 border-0 dark:bg-gray-200">
                 <!-- Flex container -->
-                <div class="hidden md:flex items-center justify-between">
+                <div class=" md:flex items-center justify-between">
                     <div class="flex">
                         <div class="text-md">© 2023 Bolt Technology OÜ</div>
                     </div>
-                    <div class="flex space-x-6">
+                    <div class="flex flex-row space-x-6">
                         <a href="#" class="font-semibold text-sm">Suppliers</a>
                         <a href="#" class="font-semibold text-sm">Juriidiline info</a>
                         <a href="#" class="font-semibold text-sm">Küpsised</a>
